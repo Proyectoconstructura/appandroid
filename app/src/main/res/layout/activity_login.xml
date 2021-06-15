@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95CD9E5A"
+    android:fitsSystemWindows="true"
+    tools:context=".loginActivity">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/blue"
+        android:text="Iniciar"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputPassword"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/password"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputPassword"
+        app:layout_constraintEnd_toStartOf="@+id/textInputPassword"
+        app:layout_constraintTop_toTopOf="@+id/textInputPassword" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputCorreo"
+        app:layout_constraintEnd_toStartOf="@+id/textInputCorreo"
+        app:layout_constraintTop_toTopOf="@+id/textInputCorreo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="382dp"
+        android:layout_height="229dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/logonuevo" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputCorreo"
+        android:layout_width="266dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/white"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputPassword"
+        android:layout_width="266dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/white"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textInputCorreo"
+        app:layout_constraintStart_toStartOf="@+id/textInputCorreo"
+        app:layout_constraintTop_toBottomOf="@+id/textInputCorreo">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

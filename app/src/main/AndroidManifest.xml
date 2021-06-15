@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sis.appalmacen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppAlmacen.NoActionBar">
+        <activity android:name=".consultarrinsumo"></activity>
+        <activity android:name=".listainsumos" />
+        <activity android:name=".consultainventario" />
+        <activity android:name=".consultarcompras" />
+        <activity android:name=".consultaRcompra" />
+        <activity
+            android:name=".consultalistainsumo"
+            android:label="@string/title_activity_consultalistainsumo"
+            android:theme="@style/Theme.AppAlmacen.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".Entrada"
+            android:label="@string/title_activity_entrada"
+            android:theme="@style/Theme.AppAlmacen.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".RequisicionCompra"
+            android:label="@string/title_activity_requisicion_compra"
+            android:theme="@style/Theme.AppAlmacen.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".RequisicionInsumos"
+            android:label="@string/title_activity_requisicion_insumos"
+            android:theme="@style/Theme.AppAlmacen.NoActionBar.NoActionBar" />
+        <activity android:name=".seleccionRequisicionActivity" />
+        <activity android:name=".ProcesaRequisicionActivity" />
+        <activity android:name=".reportesActivity" />
+        <activity android:name=".listaActivity" />
+        <activity android:name=".jefeObraActivity" />
+        <activity android:name=".jefeComprasActivity" />
+        <activity android:name=".activityAlmacenista" />
+        <activity android:name=".passwordActivity" />
+        <activity android:name=".loginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

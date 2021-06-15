@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listainsumos">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Clave:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_clave"
+        app:layout_constraintEnd_toEndOf="@+id/textView41"
+        app:layout_constraintStart_toStartOf="@+id/textView41"
+        app:layout_constraintTop_toTopOf="@+id/et_clave" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Partida:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_partida"
+        app:layout_constraintEnd_toEndOf="@+id/textView40"
+        app:layout_constraintStart_toStartOf="@+id/textView40"
+        app:layout_constraintTop_toTopOf="@+id/et_partida" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cantidad:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_cantidad"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintStart_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toTopOf="@+id/et_cantidad" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="Nombre insumo:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_nombre"
+        app:layout_constraintEnd_toEndOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toTopOf="@+id/et_nombre" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="Proyecto:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:autoSizeMaxTextSize="@dimen/fab_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/et_proyecto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_proyecto" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="81dp"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Unidad Medida:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_unidad"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toTopOf="@+id/et_unidad" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/house"
+        android:padding="20dp"
+        android:text="Menu"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnAgregar"
+        app:layout_constraintTop_toTopOf="@+id/btnAgregar" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="117dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/mas"
+        android:padding="10dp"
+        android:text="Agregar"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="114dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/logout"
+        android:padding="20dp"
+        android:text="Salir"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/btnAgregar"
+        app:layout_constraintTop_toTopOf="@+id/btnAgregar" />
+
+    <EditText
+        android:id="@+id/et_proyecto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregar" />
+
+    <EditText
+        android:id="@+id/et_clave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_proyecto"
+        app:layout_constraintStart_toStartOf="@+id/et_proyecto"
+        app:layout_constraintTop_toBottomOf="@+id/et_proyecto" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_clave"
+        app:layout_constraintStart_toStartOf="@+id/et_clave"
+        app:layout_constraintTop_toBottomOf="@+id/et_clave" />
+
+    <EditText
+        android:id="@+id/et_partida"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_nombre"
+        app:layout_constraintStart_toStartOf="@+id/et_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre" />
+
+    <EditText
+        android:id="@+id/et_cantidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_partida"
+        app:layout_constraintStart_toStartOf="@+id/et_partida"
+        app:layout_constraintTop_toBottomOf="@+id/et_partida" />
+
+    <EditText
+        android:id="@+id/et_unidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_cantidad"
+        app:layout_constraintStart_toStartOf="@+id/et_cantidad"
+        app:layout_constraintTop_toBottomOf="@+id/et_cantidad" />
+
+    <Button
+        android:id="@+id/btnguarda"
+        android:layout_width="125dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#31D304"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

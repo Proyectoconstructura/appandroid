@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seleccionRequisicionActivity"
+    android:background="@drawable/pantallasubmenu"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnVerLista"
+            android:layout_width="114dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/rounded_buttom"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/lista"
+            android:padding="20dp"
+            android:text="Ver lista"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="117dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="-65dp"
+            android:background="@drawable/rounded_buttom"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/atras"
+            android:padding="10dp"
+            android:text="Atras"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="114dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-65dp"
+            android:background="@drawable/rounded_buttom"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/logout"
+            android:padding="20dp"
+            android:text="Salir"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/rounded_buttom"
+            android:backgroundTint="@color/blue"
+            android:text="Guardar"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_buttom"
+            android:backgroundTint="@color/blue"
+            android:text="Cancelar"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

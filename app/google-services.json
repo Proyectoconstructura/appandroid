@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "6667601006",
+    "project_id": "sicsa-98517",
+    "storage_bucket": "sicsa-98517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6667601006:android:260dae18e52d0a98e6127f",
+        "android_client_info": {
+          "package_name": "com.sis.appalmacen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6667601006-7hlor7jvt7b16eeadn5kanjqk83l5t8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sis.appalmacen",
+            "certificate_hash": "27e626c65be6d68ea3008c5c63977dff27d534ec"
+          }
+        },
+        {
+          "client_id": "6667601006-uvgldb81qufssbnd93lrrkrmaduqob5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw6Q2UkzJK6CSISt46kU1SOwGrKYqkwYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6667601006-uvgldb81qufssbnd93lrrkrmaduqob5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
