@@ -37,7 +37,7 @@ class listainsumos : AppCompatActivity() {
 
         btnguarda.setOnClickListener{
             postli(tv_proyecto.text.toString(), tv_nombre.text.toString(),tv_clave.text.toString(),tv_partida.text.toString(),tv_cantidad.text.toString(),tv_unidad.text.toString())
-            Toast.makeText(this, "Se a guardado la reqisicion", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Requisición guardada con éxito", Toast.LENGTH_SHORT).show()
 
 
         }
