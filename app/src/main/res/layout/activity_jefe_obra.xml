@@ -48,43 +48,26 @@
 
         <Button
             android:id="@+id/btnModificarListaInsumos"
-            android:layout_height="wrap_content"
-            android:layout_margin="10.0dip"
-            android:layout_weight="0.5"
-            android:background="@drawable/rounded_buttom"
-            android:backgroundTint="@color/blue"
+            android:layout_width="253dp"
+            android:layout_height="93dp"
             android:drawableLeft="@drawable/reporte"
-            android:padding="10dp"
-            android:text="Ver lista de insumos"
-            android:textColor="@color/white"
-            android:textSize="10sp"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="671dp" />
+            android:text="Ver lista de insumos" />
 
         <Button
             android:id="@+id/btnCreaListaInsumos"
-            android:layout_height="wrap_content"
-            android:layout_margin="10.0dip"
-            android:layout_weight="0.5"
-            android:background="@drawable/rounded_buttom"
-            android:backgroundTint="@color/blue"
+            android:layout_width="257dp"
+            android:layout_height="94dp"
             android:drawableLeft="@drawable/health_check"
-            android:padding="10dp"
-            android:text="Crear lista de insumos"
-            android:textColor="@color/white"
-            android:textSize="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/btnModificarListaInsumos" />
-
+            android:text="Crear lista de insumos" />
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="361dp"
         android:layout_height="95dp"
-        android:layout_marginStart="16dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
